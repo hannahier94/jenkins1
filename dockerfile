@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 ENV URLS=$URLS
 
 
-ENTRYPOINT python -u /opt/ex3.py $URLS
+ENTRYPOINT python -u /opt/3ex2.py $URLS
