@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 ENV NUMB=6
 
 
-ENTRYPOINT python -u /opt/main.py $NUMB
+ENTRYPOINT python -u /opt/ex3.py $NUMB
